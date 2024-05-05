@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Commerce Website Using Bootstrap 5</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+
+    <!--themify Icons-->
+    <link rel="stylesheet" href="Assets/css/themify-icons.css">
+
+    <!--Bootstrap 5 css-->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+
+    <!--Style css-->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <!--Responsive 5 css-->
+    <link rel="stylesheet" href="Assets/css/responsive.css">
+</head>
+<body data-bs-spy=".navbar">
+
+    <!--Navigation Section-->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="Assets/images/logo.png" class="img-fluid"><!--img-fluid  for responsive image-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"><!--ms :- margin start used for start from right side-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#special">Special</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!--home section-->
+    <section id="home" class="home pt-5 overflow-hidden ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="home-banner home-banner-1">
+                    <div class="home-banner-text">
+                        <h1>Women</h1>
+                        <h2>52% Discount for This Season</h2>
+                        <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="home-banner home-banner-2">
+                    <div class="home-banner-text">
+                        <h1>E-Shop</h1>
+                        <h2>With Working Card & Pay Pal</h2>
+                        <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="ti-angle-left slider-icon"></span>
+            </span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="ti-angle-right slider-icon"></span>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+    <!--offer section-->
+    <div class="offers">
+        <div class="container">
+            <div class="row">
+                <!--offer box one-->
+                <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4" >
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner">
+                                <div class="offer-image position-relative overflow-hidden">
+                                    <img src="Assets/images/offer1.jpg" alt="Offers" class="img-fluid">
+                                    <div class="offer-overlay"></div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="offer-info-inner">
+                                        <p class="heading-bigger text-capitalize">Sale 30%</p>
+                                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--offer box two-->
+                <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 d-flex flex-column justify-content-between" >
+                    <a href="#">
+                        <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                            <div class="offer-inner">
+                                <div class="offer-image position-relative overflow-hidden">
+                                    <img src="Assets/images/offer2.jpg" alt="Offers" class="img-fluid">
+                                    <div class="offer-overlay"></div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="offer-info-inner">
+                                        <p class="heading-bigger text-capitalize">Sale 70%</p>
+                                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner">
+                                <div class="offer-image position-relative overflow-hidden">
+                                    <img src="Assets/images/offer3.jpg" alt="Offers" class="img-fluid">
+                                    <div class="offer-overlay"></div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="offer-info-inner">
+                                        <p class="heading-bigger text-capatalize">Sale 50%</p>
+                                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--offer box three-->
+                <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4" >
+                    <a href="#">
+                        <div class="offer-box text-center position-relative">
+                            <div class="offer-inner">
+                                <div class="offer-image position-relative overflow-hidden">
+                                    <img src="Assets/images/offer4.jpg" alt="Offers" class="img-fluid">
+                                    <div class="offer-overlay"></div>
+                                </div>
+                                <div class="offer-info">
+                                    <div class="offer-info-inner">
+                                        <p class="heading-bigger text-capitalize">Sale 25%</p>
+                                        <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Products section-->
+
+    <!--Special section-->
+
+    <!--Testimonial section-->
+
+    <!--Contact section-->
+
+    <!--footer section-->
+
+    <!--scroll back to top-->
+    <div id="scrollUp" title="Scroll To Top">
+        <a href="#home"><span class="ti-arrow-up fs-4 text-white"></span></a>
+    </div>
+
+    <!--boostrap 5 js-->
+    <script src="Assets/js/bootstrap.min.js"></script>
+
+    <!--Main js-->
+    <script src="Assets/js/main.js"></script>
+    
+</body>
+</html>
